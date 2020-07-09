@@ -1,6 +1,5 @@
 name: pyhep-coffea
 dependencies:
-  - conda-forge::pyxrootd
   - awkward=0.12.20
   - matplotlib=3
   - setuptools
