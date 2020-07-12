@@ -17,4 +17,7 @@ dependencies:
   - packaging
   - ipywidgets
   - pandas
-  - pip::coffea=0.6.40
+  - pip
+  - pip:
+      - coffea=0.6.40
+
