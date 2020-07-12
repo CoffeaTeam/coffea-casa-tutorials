@@ -1,5 +1,6 @@
 name: pyhep-coffea
 dependencies:
+  - coffea=0.6.40
   - awkward=0.12.20
   - matplotlib=3
   - setuptools
@@ -17,4 +18,3 @@ dependencies:
   - packaging
   - ipywidgets
   - pandas
-  - coffea=0.6.40
