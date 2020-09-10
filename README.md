@@ -31,7 +31,7 @@ The benchmarks/ folder houses solutions to eight "functionality benchmarks" firs
 ## Tutorial
 The tutorial notebook is a walkthrough of how to do analyses in coffea. It is updated to the newest 'standards' of coffea (as of 9/10/2020), and will take you (sequentially) through how to access data in NanoEvents, how to make selections on that data, how to handle some edge cases that don't play nicely in a columnar framework, and how to make plots of your data. I attempted to make this as self-explanatory as possible; thus, there are excessive explanations throughout.
 
-This notebook was originally given as a tutorial for PyHEP 2020 ([which was recorded!](https://www.youtube.com/watch?v=oPl0t8J36-Q&t=708s)). It concluded with a scaled-up demo of the tutorial's contents deployed on coffea-casa, which can't really be captured within the notebook itself. You'll have to make your own demo by playing around with the analysis notebook yourself (see **Analysis** below)!
+This notebook was originally given as a tutorial for PyHEP 2020 ([which was recorded!](https://www.youtube.com/watch?v=oPl0t8J36-Q)). It concluded with a scaled-up demo of the tutorial's contents deployed on coffea-casa, which can't really be captured within the notebook itself. You'll have to make your own demo by playing around with the analysis notebook yourself (see **Analysis** below)!
 
 ## Analysis
 The analysis notebook, in its current state in this repository, was precisely the demo I featured in PyHEP 2020 (mentioned above). You should be able to run it on coffea-casa without any further configuration.
