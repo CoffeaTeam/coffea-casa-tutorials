@@ -13,6 +13,23 @@ The [benchmarks/](https://github.com/CoffeaTeam/coffea-casa-tutorials/tree/maste
 
 Finally, the template at [coffea-casa-template.ipynb](https://github.com/CoffeaTeam/coffea-casa-tutorials/blob/master/coffea-casa-template.ipynb) provides a holistic view for how to execute a file on coffea-casa. The latter sections of this are useful for experienced coffea users who want to deploy their analysis on the coffea-casa facility; just start with the *Running the Dask Executor,* and refer to the notes under *Miscellaneous* for how to employ additional tools. New users should look through the whole template to understand the standard structure of a coffea analysis.
 
+### Cloning in JupyterLab
+Cloning a repository into JupyterLab is simple, though it can be a little confusing because it is spread across two tabs in the sidebar: the *File Browser* and the *Git* tabs.
+
+In order to clone a repository, first go to the Git tab. It should look like this:
+
+<img src="docs/git.png" alt="Git" width="50%"/>
+
+Simply click the appropriate button (initialize a repository, or clone a repository) and you'll be hooked up to GitHub. This should then take you to the *File Browser* tab, which is where you can see all of the repositories you have cloned in your JupyterLab instance. The File Browser should look like this:
+
+<img src="docs/browser.png" alt="Browser" width="50%"/>
+
+If you wish to commit, push, or pull from the repository you currently have active in the File Browser, then you can return to the Git tab. It should now look like this:
+
+<img src="docs/git2.png" alt="Git" width="50%"/>
+
+The buttons in the top right allow for pulling and pushing respectively. When you have edited files in a directory, they will show up under the *Changed* category, at which point you can hit the **+** to add them to a commit (at which point they will show up under *Staged*). Filling out the box at the bottom of the sidebar will file your commit, and prepare it for you to push.
+
 The rest of this readme provides extensive details and specifications about the files included, for those interested in their purpose/motivation beyond their function as a tutorial.
 
 ## Benchmarks
