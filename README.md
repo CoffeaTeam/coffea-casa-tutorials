@@ -17,7 +17,7 @@ The repository is divided into several components, which may be more or less hel
 
 If you are completely new to coffea, it's suggested that you begin your journey with the [analysis/analysis_tutorial.ipynb](https://github.com/CoffeaTeam/coffea-casa-tutorials/blob/master/analysis/analysis_tutorial.ipynb) file. This is a walkthrough of how to construct the analysis in the [analysis/](https://github.com/CoffeaTeam/coffea-casa-tutorials/tree/master/analysis) folder, going into thorough details of how columnar analysis can be implemented. The coffea documentation also has [additional examples](https://coffeateam.github.io/coffea/examples.html) to help you learn!
 
-The [benchmarks/](https://github.com/CoffeaTeam/coffea-casa-tutorials/tree/master/benchmarks) folder features examples which may further augment your understanding of coffea, but which are also useful to experienced coffea users as minimal examples for running on coffea-casa and Dask. These benchmarks should run out of the box on our facility, and may thus be useful for debugging.
+The [examples/](https://github.com/CoffeaTeam/coffea-casa-tutorials/tree/master/examples) folder features examples which may further augment your understanding of coffea, but which are also useful to experienced coffea users as minimal examples for running on coffea-casa and Dask. These examples should run out of the box on our facility, and may thus be useful for debugging.
 
 Finally, the template at [coffea-casa-template.ipynb](https://github.com/CoffeaTeam/coffea-casa-tutorials/blob/master/coffea-casa-template.ipynb) provides a holistic view for how to execute a file on coffea-casa. The latter sections of this are useful for experienced coffea users who want to deploy their analysis on the coffea-casa facility; just start with the *Running the Dask Executor,* and refer to the notes under *Miscellaneous* for how to employ additional tools. New users should look through the whole template to understand the standard structure of a coffea analysis.
 
@@ -43,7 +43,7 @@ The buttons in the top right allow for pulling and pushing respectively. When yo
 The rest of this readme provides extensive details and specifications about the files included, for those interested in their purpose/motivation beyond their function as a tutorial.
 
 ## Examples
-*Details on the provided benchmarks, as well as local (non-coffea-casa) implementations and older/alternate solutions, can be found on the [coffea-benchmarks](https://github.com/mat-adamec/coffea-benchmarks) page, whose basic information has been copied here.*
+*Details on the provided examples, as well as local (non-coffea-casa) implementations and older/alternate solutions, can be found on the [coffea-benchmarks](https://github.com/mat-adamec/coffea-benchmarks) page, whose basic information has been copied here.*
 
 The examples/ folder houses solutions to eight "functionality benchmarks" first proposed [here](https://github.com/iris-hep/adl-benchmarks-index). They are as follow:
 1. Plot the missing ET of all events.
