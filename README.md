@@ -4,6 +4,14 @@ This tutorial repository contains resources for deploying [coffea](https://githu
 
 It should be run from the coffea-casa facility, but a [binderized format](%28https://mybinder.org/v2/gh/CoffeaTeam/coffea-casa-tutorials/master) is included for those who want to play with subsets of this repository outside of coffea-casa.
 
+## Table of Contents
+- [Summary](https://github.com/CoffeaTeam/coffea-casa-tutorials#summary)
+  - [Cloning in JupyterLab](https://github.com/CoffeaTeam/coffea-casa-tutorials#cloning-in-jupyterlab)
+- [Examples](https://github.com/CoffeaTeam/coffea-casa-tutorials#examples)
+- [Analysis](https://github.com/CoffeaTeam/coffea-casa-tutorials#analysis)
+  - [Tutorial](https://github.com/CoffeaTeam/coffea-casa-tutorials#tutorial)
+
+
 ## Summary
 The repository is divided into several components, which may be more or less helpful depending on your goals. 
 
@@ -34,10 +42,10 @@ The buttons in the top right allow for pulling and pushing respectively. When yo
 
 The rest of this readme provides extensive details and specifications about the files included, for those interested in their purpose/motivation beyond their function as a tutorial.
 
-## Benchmarks
+## Examples
 *Details on the provided benchmarks, as well as local (non-coffea-casa) implementations and older/alternate solutions, can be found on the [coffea-benchmarks](https://github.com/mat-adamec/coffea-benchmarks) page, whose basic information has been copied here.*
 
-The benchmarks/ folder houses solutions to eight "functionality benchmarks" first proposed [here](https://github.com/iris-hep/adl-benchmarks-index). They are as follow:
+The examples/ folder houses solutions to eight "functionality benchmarks" first proposed [here](https://github.com/iris-hep/adl-benchmarks-index). They are as follow:
 1. Plot the missing ET of all events.
 2. Plot pT of all jets in all events.
 3. Plot pT of jets with |η| < 1.
