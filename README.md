@@ -24,7 +24,9 @@ Simply click the appropriate button (initialize a repository, or clone a reposit
 
 <img src="docs/browser.png" alt="Browser" width="50%"/>
 
-If you wish to commit, push, or pull from the repository you currently have active in the File Browser, then you can return to the Git tab. It should now look like this:
+If you wish to change repositories, simply click the folder button to enter the root directory. If you are in the root directory, the Git tab will reset and allow you to clone another repository.
+
+If you wish to commit, push, or pull from the repository you currently have active in the File Browser, then you can return to the Git tab. It should change to look like this, so long as you have a repository open in the File Browser:
 
 <img src="docs/git2.png" alt="Git" width="50%"/>
 
