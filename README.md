@@ -8,14 +8,14 @@ It should be run from the coffea-casa facility, but a [binderized format](%28htt
 - [Summary](https://github.com/CoffeaTeam/coffea-casa-tutorials#summary)
   - [Cloning in JupyterLab](https://github.com/CoffeaTeam/coffea-casa-tutorials#cloning-in-jupyterlab)
 - [Examples](https://github.com/CoffeaTeam/coffea-casa-tutorials#examples)
-- [Analysis](https://github.com/CoffeaTeam/coffea-casa-tutorials#analysis)
+- [Analyses](https://github.com/CoffeaTeam/coffea-casa-tutorials#analyses)
   - [Tutorial](https://github.com/CoffeaTeam/coffea-casa-tutorials#tutorial)
 
 
 ## Summary
 The repository is divided into several components, which may be more or less helpful depending on your goals. 
 
-If you are completely new to coffea, it's suggested that you begin your journey with the [analysis/analysis_tutorial.ipynb](https://github.com/CoffeaTeam/coffea-casa-tutorials/blob/master/analysis/analysis_tutorial.ipynb) file. This is a walkthrough of how to construct the analysis in the [analysis/](https://github.com/CoffeaTeam/coffea-casa-tutorials/tree/master/analysis) folder, going into thorough details of how columnar analysis can be implemented. The coffea documentation also has [additional examples](https://coffeateam.github.io/coffea/examples.html) to help you learn!
+If you are completely new to coffea, it's suggested that you begin your journey with the [analyses/thq/analysis_tutorial.ipynb](https://github.com/CoffeaTeam/coffea-casa-tutorials/blob/master/analyses/thq/analysis_tutorial.ipynb) file. This is a walkthrough of how to construct the analysis in the [analysis/thq](https://github.com/CoffeaTeam/coffea-casa-tutorials/tree/master/analyses) folder, going into thorough details of how columnar analysis can be implemented. The coffea documentation also has [additional examples](https://coffeateam.github.io/coffea/examples.html) to help you learn!
 
 The [examples/](https://github.com/CoffeaTeam/coffea-casa-tutorials/tree/master/examples) folder features examples which may further augment your understanding of coffea, but which are also useful to experienced coffea users as minimal examples for running on coffea-casa and Dask. These examples should run out of the box on our facility, and may thus be useful for debugging.
 
@@ -55,12 +55,12 @@ The examples/ folder houses solutions to eight "functionality benchmarks" first 
 7. Plot the sum of pT of jets with pT > 30 GeV that are not within 0.4 in ΔR of any lepton with pT > 10 GeV.
 8. For events with at least three leptons and a same-flavor opposite-sign lepton pair, find the same-flavor opposite-sign lepton pair with the mass closest to 91.2 GeV and plot the transverse mass of the missing energy and the leading other lepton.
 
-## Analysis
-The notebook for my analysis, which is being actively developed in coffea-casa. This folder contains an analysis-casa.ipynb file for Dask deployment, an analysis-local.ipynb file for local testing, and an analysis_tutorial.ipynb file which thoroughly explains how the analysis was built, intended as a tutorial for coffea.
+## Analyses
+The analyses folder contains two subfolders: thq and topcoffea, corresponding to two analyses which have been completed in coffea and adapted for coffea-casa.
 
-The physical details of this analysis are largely irrelevant, but for those curious: it is an attempt to recreate the results of "*[Search for associated production of a Higgs boson and a single top quark in proton-proton collisions at √s=13TeV](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.092005)*" within coffea. Explanations of cuts, selections, and other operations can be found there, or briefly explained in the tutorial notebook above. 
+The thq folder contains an analysis-casa.ipynb file for Dask deployment, an analysis-local.ipynb file for local testing, and an analysis_tutorial.ipynb file which thoroughly explains how the analysis was built, intended as a tutorial for coffea. The physical details of this analysis are largely irrelevant, but for those curious: it is an attempt to recreate the results of "*[Search for associated production of a Higgs boson and a single top quark in proton-proton collisions at √s=13TeV](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.092005)*" within coffea. Explanations of cuts, selections, and other operations can be found there, or briefly explained in the tutorial notebook above. 
 
-The topcoffea folder contains a notebook adaptation of top quark analyses using the Coffea framework for coffea-casa. The notebook works with the full repository, which can be found at: https://github.com/TopEFT/topcoffea. 
+The topcoffea folder contains a work-in-progress notebook adaptation of top quark analyses using the Coffea framework for coffea-casa. The notebook works with the full repository, which can be found at: https://github.com/TopEFT/topcoffea. 
 
 ### Tutorial
 The tutorial notebook is a walkthrough of how to do analyses in coffea. It is updated to the newest 'standards' of coffea (as of 9/10/2020), and will take you (sequentially) through how to access data in NanoEvents, how to make selections on that data, how to handle some edge cases that don't play nicely in a columnar framework, and how to make plots of your data. I attempted to make this as self-explanatory as possible; thus, there are excessive explanations throughout.
