@@ -58,8 +58,10 @@ The examples/ folder houses solutions to eight "functionality benchmarks" first 
 ## Analyses
 The analyses folder contains two subfolders: thq and topcoffea, corresponding to two analyses which have been completed in coffea and adapted for coffea-casa.
 
+### tHq
 The thq folder contains an analysis-casa.ipynb file for Dask deployment, an analysis-local.ipynb file for local testing, and an analysis_tutorial.ipynb file which thoroughly explains how the analysis was built, intended as a tutorial for coffea. The physical details of this analysis are largely irrelevant, but for those curious: it is an attempt to recreate the results of "*[Search for associated production of a Higgs boson and a single top quark in proton-proton collisions at √s=13TeV](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.092005)*" within coffea. Explanations of cuts, selections, and other operations can be found there, or briefly explained in the tutorial notebook above. 
 
+### topcoffea
 The topcoffea folder contains a work-in-progress notebook adaptation of top quark analyses using the Coffea framework for coffea-casa. The notebook works with the full repository, which can be found at: https://github.com/TopEFT/topcoffea. 
 
 ### Tutorial
