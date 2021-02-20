@@ -11,6 +11,7 @@ It should be run from the coffea-casa facility, but a [binderized format](%28htt
 - [Analyses](https://github.com/CoffeaTeam/coffea-casa-tutorials#analyses)
   - [tHq](https://github.com/CoffeaTeam/coffea-casa-tutorials#thq)
     - [Tutorial](https://github.com/CoffeaTeam/coffea-casa-tutorials#tutorial)
+    - [Benchmarking](https://github.com/CoffeaTeam/coffea-casa-tutorials#benchmarking)
   - [topcoffea](https://github.com/CoffeaTeam/coffea-casa-tutorials#topcoffea)
 
 
@@ -67,6 +68,9 @@ The tHq folder contains an analysis-casa.ipynb file for Dask deployment, an anal
 The tutorial notebook is a walkthrough of how to do analyses in coffea. It is updated to the newest 'standards' of coffea (as of 9/10/2020), and will take you (sequentially) through how to access data in NanoEvents, how to make selections on that data, how to handle some edge cases that don't play nicely in a columnar framework, and how to make plots of your data. I attempted to make this as self-explanatory as possible; thus, there are excessive explanations throughout.
 
 This notebook was originally given as a tutorial for PyHEP 2020 ([which was recorded!](https://www.youtube.com/watch?v=oPl0t8J36-Q)). It concluded with a scaled-up demo of the tutorial's contents deployed on coffea-casa, which can't really be captured within the notebook itself. You'll have to make your own demo by playing around with the analysis notebook yourself (see **Analysis** above)!
+
+#### Benchmarking
+There is a [subfolder](https://github.com/CoffeaTeam/coffea-casa-tutorials/tree/master/analyses/thq/benchmarking) within tHq which is a variation of the analysis-casa.ipynb file designed for benchmarking. It allows easy blowing-up of datasets to any size, as well as tools for manually requesting workers (rather than using autoscaling), so that benchmarks can be derived. For most users, this file probably isn't useful! For developers, however, it might be. Tweak the blocks pertaining to weak and strong scaling to vary your measurements.
 
 ### topcoffea
 The topcoffea folder contains a work-in-progress notebook adaptation of top quark analyses using the Coffea framework for coffea-casa. The notebook works with the full repository, which can be found at: https://github.com/TopEFT/topcoffea. 
