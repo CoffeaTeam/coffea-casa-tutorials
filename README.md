@@ -9,7 +9,9 @@ It should be run from the coffea-casa facility, but a [binderized format](%28htt
   - [Cloning in JupyterLab](https://github.com/CoffeaTeam/coffea-casa-tutorials#cloning-in-jupyterlab)
 - [Examples](https://github.com/CoffeaTeam/coffea-casa-tutorials#examples)
 - [Analyses](https://github.com/CoffeaTeam/coffea-casa-tutorials#analyses)
-  - [Tutorial](https://github.com/CoffeaTeam/coffea-casa-tutorials#tutorial)
+  -[tHq](https://github.com/CoffeaTeam/coffea-casa-tutorials#thq)
+    - [Tutorial](https://github.com/CoffeaTeam/coffea-casa-tutorials#tutorial)
+  -[topcoffea](https://github.com/CoffeaTeam/coffea-casa-tutorials#topcoffea)
 
 
 ## Summary
@@ -56,15 +58,15 @@ The examples/ folder houses solutions to eight "functionality benchmarks" first 
 8. For events with at least three leptons and a same-flavor opposite-sign lepton pair, find the same-flavor opposite-sign lepton pair with the mass closest to 91.2 GeV and plot the transverse mass of the missing energy and the leading other lepton.
 
 ## Analyses
-The analyses folder contains two subfolders: thq and topcoffea, corresponding to two analyses which have been completed in coffea and adapted for coffea-casa.
+The analyses folder contains two subfolders: tHq and topcoffea, corresponding to two analyses which have been completed in coffea and adapted for coffea-casa.
 
 ### tHq
-The thq folder contains an analysis-casa.ipynb file for Dask deployment, an analysis-local.ipynb file for local testing, and an analysis_tutorial.ipynb file which thoroughly explains how the analysis was built, intended as a tutorial for coffea. The physical details of this analysis are largely irrelevant, but for those curious: it is an attempt to recreate the results of "*[Search for associated production of a Higgs boson and a single top quark in proton-proton collisions at √s=13TeV](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.092005)*" within coffea. Explanations of cuts, selections, and other operations can be found there, or briefly explained in the tutorial notebook above. 
+The tHq folder contains an analysis-casa.ipynb file for Dask deployment, an analysis-local.ipynb file for local testing, and an analysis_tutorial.ipynb file which thoroughly explains how the analysis was built, intended as a tutorial for coffea. The physical details of this analysis are largely irrelevant, but for those curious: it is an attempt to recreate the results of "*[Search for associated production of a Higgs boson and a single top quark in proton-proton collisions at √s=13TeV](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.092005)*" within coffea. Explanations of cuts, selections, and other operations can be found there, or briefly explained in the tutorial notebook mentioned below.
 
-### topcoffea
-The topcoffea folder contains a work-in-progress notebook adaptation of top quark analyses using the Coffea framework for coffea-casa. The notebook works with the full repository, which can be found at: https://github.com/TopEFT/topcoffea. 
-
-### Tutorial
+#### Tutorial
 The tutorial notebook is a walkthrough of how to do analyses in coffea. It is updated to the newest 'standards' of coffea (as of 9/10/2020), and will take you (sequentially) through how to access data in NanoEvents, how to make selections on that data, how to handle some edge cases that don't play nicely in a columnar framework, and how to make plots of your data. I attempted to make this as self-explanatory as possible; thus, there are excessive explanations throughout.
 
 This notebook was originally given as a tutorial for PyHEP 2020 ([which was recorded!](https://www.youtube.com/watch?v=oPl0t8J36-Q)). It concluded with a scaled-up demo of the tutorial's contents deployed on coffea-casa, which can't really be captured within the notebook itself. You'll have to make your own demo by playing around with the analysis notebook yourself (see **Analysis** above)!
+
+### topcoffea
+The topcoffea folder contains a work-in-progress notebook adaptation of top quark analyses using the Coffea framework for coffea-casa. The notebook works with the full repository, which can be found at: https://github.com/TopEFT/topcoffea. 
