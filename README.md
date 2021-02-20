@@ -9,9 +9,9 @@ It should be run from the coffea-casa facility, but a [binderized format](%28htt
   - [Cloning in JupyterLab](https://github.com/CoffeaTeam/coffea-casa-tutorials#cloning-in-jupyterlab)
 - [Examples](https://github.com/CoffeaTeam/coffea-casa-tutorials#examples)
 - [Analyses](https://github.com/CoffeaTeam/coffea-casa-tutorials#analyses)
-  -[tHq](https://github.com/CoffeaTeam/coffea-casa-tutorials#thq)
+  - [tHq](https://github.com/CoffeaTeam/coffea-casa-tutorials#thq)
     - [Tutorial](https://github.com/CoffeaTeam/coffea-casa-tutorials#tutorial)
-  -[topcoffea](https://github.com/CoffeaTeam/coffea-casa-tutorials#topcoffea)
+  - [topcoffea](https://github.com/CoffeaTeam/coffea-casa-tutorials#topcoffea)
 
 
 ## Summary
