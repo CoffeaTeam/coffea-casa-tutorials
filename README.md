@@ -1,8 +1,5 @@
-
-# coffea-casa-tutorials [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CoffeaTeam/coffea-casa-tutorials/master)
-This tutorial repository contains resources for deploying [coffea](https://github.com/CoffeaTeam/coffea) on the [coffea-casa analysis facility](https://github.com/CoffeaTeam/coffea-casa).
-
-It should be run from the coffea-casa facility, but a [binderized format](%28https://mybinder.org/v2/gh/CoffeaTeam/coffea-casa-tutorials/master) is included for those who want to play with subsets of this repository outside of coffea-casa.
+# coffea-casa-tutorials
+This tutorial repository contains resources for deploying [coffea](https://github.com/CoffeaTeam/coffea) on the [coffea-casa analysis facility](https://github.com/CoffeaTeam/coffea-casa). It should be run from the coffea-casa facility.
 
 ## Table of Contents
 - [Summary](https://github.com/CoffeaTeam/coffea-casa-tutorials#summary)
