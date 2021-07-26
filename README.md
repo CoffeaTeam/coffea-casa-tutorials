@@ -71,3 +71,6 @@ There is a [subfolder](https://github.com/CoffeaTeam/coffea-casa-tutorials/tree/
 
 ### topcoffea
 The topcoffea folder contains a work-in-progress notebook adaptation of top quark analyses using the Coffea framework for coffea-casa. The notebook works with the full repository, which can be found at: https://github.com/TopEFT/topcoffea. 
+
+### Tech Support
+[this](https://github.com/CoffeaTeam/coffea-casa/discussions/categories/unl-tech-support) is the link to tech support.
