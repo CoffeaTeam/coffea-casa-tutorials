@@ -59,7 +59,7 @@ The examples/ folder houses solutions to eight "functionality benchmarks" first 
 ## Analyses
 The analyses folder contains two subfolders: tHq and topcoffea, corresponding to two analyses which have been completed in coffea and adapted for coffea-casa.
 
-### tHq
+### tHq analysis
 The tHq folder contains an analysis-casa.ipynb file for Dask deployment, an analysis-local.ipynb file for local testing, and an analysis_tutorial.ipynb file which thoroughly explains how the analysis was built, intended as a tutorial for coffea. The physical details of this analysis are largely irrelevant, but for those curious: it is an attempt to recreate the results of "*[Search for associated production of a Higgs boson and a single top quark in proton-proton collisions at √s=13TeV](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.092005)*" within coffea. Explanations of cuts, selections, and other operations can be found there, or briefly explained in the tutorial notebook mentioned below.
 
 #### Tutorial
@@ -70,5 +70,9 @@ This notebook was originally given as a tutorial for PyHEP 2020 ([which was reco
 #### Benchmarking
 There is a [subfolder](https://github.com/CoffeaTeam/coffea-casa-tutorials/tree/master/analyses/thq/benchmarking) within tHq which is a variation of the analysis-casa.ipynb file designed for benchmarking. It allows easy blowing-up of datasets to any size, as well as tools for manually requesting workers (rather than using autoscaling), so that benchmarks can be derived. For most users, this file probably isn't useful! For developers, however, it might be. Tweak the blocks pertaining to weak and strong scaling to vary your measurements.
 
-### topcoffea
-The topcoffea folder contains a work-in-progress notebook adaptation of top quark analyses using the Coffea framework for coffea-casa. The notebook works with the full repository, which can be found at: https://github.com/TopEFT/topcoffea. 
+### topcoffea analysis
+The topcoffea folder contains a work-in-progress notebook adaptation of top quark analyses using the Coffea framework for coffea-casa. The notebook works with the full repository, which can be found at: https://github.com/TopEFT/topcoffea.
+
+### HZZ ATLAS Opendata analysis
+
+The topcoffea folder contains HZZ ATLAS Opendata analysis which is syncronized from https://github.com/iris-hep/analysis-grand-challenge/tree/main/analyses/atlas-open-data-hzz repository and contributed by Storm Lin / improved by Alex Held (IRIS-HEP).
