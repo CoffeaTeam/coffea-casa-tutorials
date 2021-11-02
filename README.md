@@ -10,6 +10,7 @@ This tutorial repository contains resources for deploying [coffea](https://githu
     - [Tutorial](https://github.com/CoffeaTeam/coffea-casa-tutorials#tutorial)
     - [Benchmarking](https://github.com/CoffeaTeam/coffea-casa-tutorials#benchmarking)
   - [topcoffea](https://github.com/CoffeaTeam/coffea-casa-tutorials#topcoffea)
+  - [HZZ](https://github.com/CoffeaTeam/coffea-casa-tutorials#HZZ)
 
 
 ## Summary
