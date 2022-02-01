@@ -10,6 +10,8 @@ This tutorial repository contains resources for deploying [coffea](https://githu
     - [Tutorial](https://github.com/CoffeaTeam/coffea-casa-tutorials#tutorial)
     - [Benchmarking](https://github.com/CoffeaTeam/coffea-casa-tutorials#benchmarking)
   - [topcoffea](https://github.com/CoffeaTeam/coffea-casa-tutorials#topcoffea)
+  - [HZZ](https://github.com/CoffeaTeam/coffea-casa-tutorials#HZZ)
+  - [Tech Support](https://github.com/CoffeaTeam/coffea-casa-tutorials#tech-support)
 
 
 ## Summary
@@ -72,5 +74,8 @@ There is a [subfolder](https://github.com/CoffeaTeam/coffea-casa-tutorials/tree/
 ### topcoffea
 The topcoffea folder contains a work-in-progress notebook adaptation of top quark analyses using the Coffea framework for coffea-casa. The notebook works with the full repository, which can be found at: https://github.com/TopEFT/topcoffea. 
 
+### HZZ
+The topcoffea folder contains HZZ ATLAS Opendata analysis which is syncronized from https://github.com/iris-hep/analysis-grand-challenge/tree/main/analyses/atlas-open-data-hzz repository and contributed by Storm Lin / improved by Alex Held (IRIS-HEP).
+
 ### Tech Support
-[this](https://github.com/CoffeaTeam/coffea-casa/discussions/categories/unl-tech-support) is the link to tech support.
+[This](https://github.com/CoffeaTeam/coffea-casa/discussions/categories/unl-tech-support) is the link to tech support.
