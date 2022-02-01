@@ -11,6 +11,7 @@ This tutorial repository contains resources for deploying [coffea](https://githu
     - [Benchmarking](https://github.com/CoffeaTeam/coffea-casa-tutorials#benchmarking)
   - [topcoffea](https://github.com/CoffeaTeam/coffea-casa-tutorials#topcoffea)
   - [HZZ](https://github.com/CoffeaTeam/coffea-casa-tutorials#HZZ)
+  - [Tech Support](https://github.com/CoffeaTeam/coffea-casa-tutorials#tech-support)
 
 
 ## Summary
@@ -71,7 +72,10 @@ This notebook was originally given as a tutorial for PyHEP 2020 ([which was reco
 There is a [subfolder](https://github.com/CoffeaTeam/coffea-casa-tutorials/tree/master/analyses/thq/benchmarking) within tHq which is a variation of the analysis-casa.ipynb file designed for benchmarking. It allows easy blowing-up of datasets to any size, as well as tools for manually requesting workers (rather than using autoscaling), so that benchmarks can be derived. For most users, this file probably isn't useful! For developers, however, it might be. Tweak the blocks pertaining to weak and strong scaling to vary your measurements.
 
 ### topcoffea
-The topcoffea folder contains a work-in-progress notebook adaptation of top quark analyses using the Coffea framework for coffea-casa. The notebook works with the full repository, which can be found at: https://github.com/TopEFT/topcoffea.
+The topcoffea folder contains a work-in-progress notebook adaptation of top quark analyses using the Coffea framework for coffea-casa. The notebook works with the full repository, which can be found at: https://github.com/TopEFT/topcoffea. 
 
 ### HZZ
 The topcoffea folder contains HZZ ATLAS Opendata analysis which is syncronized from https://github.com/iris-hep/analysis-grand-challenge/tree/main/analyses/atlas-open-data-hzz repository and contributed by Storm Lin / improved by Alex Held (IRIS-HEP).
+
+### Tech Support
+[This](https://github.com/CoffeaTeam/coffea-casa/discussions/categories/unl-tech-support) is the link to tech support.
