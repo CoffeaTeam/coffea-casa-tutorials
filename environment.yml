@@ -3,7 +3,6 @@ dependencies:
   - awkward=0.12.20
   - matplotlib=3
   - setuptools
-  - llvmlite
   - numba=0.43.1
   - numpy=1.16.0
   - scipy=1.1.0
