@@ -15,9 +15,9 @@ This tutorial repository contains resources for deploying [coffea](https://githu
 
 
 ## Summary
-The repository is divided into several components, which may be more or less helpful depending on your goals. 
+The repository is divided into several components, which may be more or less helpful depending on your goals.
 
-If you are completely new to coffea, it's suggested that you begin your journey with the [analyses/thq/analysis_tutorial.ipynb](https://github.com/CoffeaTeam/coffea-casa-tutorials/blob/master/analyses/thq/analysis_tutorial.ipynb) file. This is a walkthrough of how to construct the analysis in the [analysis/thq](https://github.com/CoffeaTeam/coffea-casa-tutorials/tree/master/analyses) folder, going into thorough details of how columnar analysis can be implemented. The coffea documentation also has [additional examples](https://coffeateam.github.io/coffea/examples.html) to help you learn!
+If you are completely new to coffea, it's suggested that you begin your journey with [agc_tutorial.ipynb](https://github.com/CoffeaTeam/coffea-casa-tutorials/blob/master/agc_tutorial.ipynb), a version of which was presented at [AGC 2022](https://github.com/iris-hep/analysis-grand-challenge). A similar, but more practical walkthrough is presented in [analyses/thq/analysis_tutorial.ipynb](https://github.com/CoffeaTeam/coffea-casa-tutorials/blob/master/analyses/thq/analysis_tutorial.ipynb). Practically, this file tells you how to construct the analysis in the [analysis/thq](https://github.com/CoffeaTeam/coffea-casa-tutorials/tree/master/analyses) folder, going into thorough details of how columnar analysis can be implemented. The coffea documentation also has [additional examples](https://coffeateam.github.io/coffea/examples.html) to help you learn!
 
 The [examples/](https://github.com/CoffeaTeam/coffea-casa-tutorials/tree/master/examples) folder features examples which may further augment your understanding of coffea, but which are also useful to experienced coffea users as minimal examples for running on coffea-casa and Dask. These examples should run out of the box on our facility, and may thus be useful for debugging.
 
@@ -56,6 +56,9 @@ The examples/ folder houses solutions to eight "functionality benchmarks" first 
 6. Plot pT of the trijet system with the mass closest to 172.5 GeV in each event and plot the maximum b-tagging discriminant value among the jets in the triplet.
 7. Plot the sum of pT of jets with pT > 30 GeV that are not within 0.4 in ΔR of any lepton with pT > 10 GeV.
 8. For events with at least three leptons and a same-flavor opposite-sign lepton pair, find the same-flavor opposite-sign lepton pair with the mass closest to 91.2 GeV and plot the transverse mass of the missing energy and the leading other lepton.
+
+## Other Example Folders
+There are several variations of folders containing "examples" in their name. These contain variations the functionality benchmarks designed to be deployed in very specific ways (typically explained by the folder's name!) If you aren't sure which examples you want to try using, the default examples/ folder is likely the place you want to go. Further descriptions of these variations may be provided when they are determined to be finished and stable.
 
 ## Analyses
 The analyses folder contains two subfolders: tHq and topcoffea, corresponding to two analyses which have been completed in coffea and adapted for coffea-casa.
